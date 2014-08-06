@@ -1,0 +1,36 @@
+{
+  "name": "reactive-child",
+  "version": "0.0.1",
+  "description": "Create child views for properties",
+  "main": "index.js",
+  "scripts": {
+    "test-local": "zuul --local 8080 -- test/index.js",
+    "test": "zuul -- test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vweevers/reactive-child"
+  },
+  "keywords": [
+    "reactive",
+    "childview",
+    "child"
+  ],
+  "author": "Vincent Weevers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vweevers/reactive-child/issues"
+  },
+  "homepage": "https://github.com/vweevers/reactive-child",
+  "dependencies": {},
+  "peerDependencies": {
+    "reactive": "^1.2.0"
+  },
+  "devDependencies": {
+    "emitter-component": "^1.1.1",
+    "inherits": "^2.0.1",
+    "reactive": "^1.2.0",
+    "tape": "^2.14.0",
+    "zuul": "^1.10.0"
+  }
+}
